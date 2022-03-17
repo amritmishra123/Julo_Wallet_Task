@@ -10,3 +10,4 @@ def update_wallet_balance(amount, trx_type, wallet_id):
     else:
         wallet.balance = wallet.balance - int(amount)
     wallet.save()
+   
